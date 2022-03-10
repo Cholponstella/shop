@@ -1,0 +1,36 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+@import '../components/footer';
+@import '../components/header';
+@import '../components/info';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1165px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,body {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}

@@ -1,0 +1,40 @@
+.footer {
+    background: #222528;
+    padding-bottom: 57px;
+    &__all {
+        display: flex;
+        justify-content: space-between;
+       
+        
+    }
+    &__wrapper {
+        display: flex;
+        
+       
+       
+    }
+    &__par {
+       @include font_3;
+       color: #CED0D2;
+       margin-left: 53px;
+       margin-top: 56px;
+       align-items: center;
+      
+    }
+    &__para {
+        @include font_3;
+        color: $text-light_gray;
+        margin-top: 56px;
+        
+    }
+    
+}
+@media screen and (max-width: 780px) {
+    .footer__para {
+        display: none;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}

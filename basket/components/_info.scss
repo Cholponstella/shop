@@ -1,0 +1,98 @@
+.info {
+  background: linear-gradient(92.55deg, #f2b236 32.31%, #ff9c1a 64.34%);
+  margin-top: 240px;
+  
+  &__text {
+    @include font_1;
+    color: $text-dark__orange;
+    
+  }
+  &__search-all {
+    background: #ffffff;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+   
+    input {
+        border: none;
+        background: transparent;
+        width: 260px;
+    }
+  }
+  &__search {
+    margin-top: 45px;
+    margin-right: 10px;
+  }
+  &__ash {
+    @include font_1;
+    color: $text-dark__orange;
+    
+  }
+  &__a {
+    @include font_3;
+    color: $text-wheat;
+    
+  }
+  
+  &__ar {
+    @include font_3;
+    font-weight: bold;
+    color: $text-wheat;
+  }
+  &__wrapper {
+    display: flex;
+    margin-top: 58px;
+  }
+  &__all {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logotip {
+    margin-top: 75px;
+
+  }
+  &__logo {
+      margin-bottom: 16px;
+  }
+  &__input {
+      margin-top: 45px;
+  }
+  &__solid {
+      margin-right: 54px;
+  }
+  &__reviews {
+      margin-right: 54px;
+  }
+  &__ara {
+    margin-top: 16px;
+  }
+  &__icons {
+    margin-top: 38px;
+  }
+  &__img {
+    margin-right: 17px;
+  }
+  &__arar {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .info__all {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .info__logot {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  
+  }
+  .info__wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+}

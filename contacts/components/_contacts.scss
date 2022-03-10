@@ -1,0 +1,34 @@
+.contacts {
+  border-bottom: 5px solid $text-wheat;
+  padding-bottom: 112px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__number {
+    @include font(31px, 500, 140%);
+    margin-top: 83px;
+    color: $text-dark__gray;
+  }
+  &__item {
+    @include font(24px, 500, 140%);
+    margin-top: 52px;
+    color: $text-dark__gray;
+  }
+  &__requisites {
+    max-width: 285px;
+  }
+  &__address {
+    max-width: 645px;
+  }
+  &__span {
+    @include font(16px, 400, 160%);
+    color: $text-gray;
+  }
+  &__icon-text {
+    margin-left: 12px;
+  }
+  &__social {
+    margin-left: 24px;
+  }
+}

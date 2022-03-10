@@ -1,0 +1,27 @@
+.profile {
+    background: url(../img/linear-bg.png) top no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    font-family: Rubik;
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 24px;
+        color: #fafaf9;
+        margin-top: 24px;
+    }
+    &__descr {
+        font-style: italic;
+        font-size: 20px;
+        color: #222528;
+        margin-top: 16px;
+    }
+    &__box {
+        text-align: center;
+        width: 265px;
+    }
+}

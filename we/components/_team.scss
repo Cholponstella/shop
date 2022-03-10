@@ -1,0 +1,64 @@
+.team {
+    font-family: Rubik;
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 38px;
+        color: #a5aaaf;
+        text-align: center;
+        margin-top: 80px;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: #222528;
+        margin-top: 32px;
+    }
+    &__box {
+        max-width: 364px;
+        margin: 0 auto;
+        margin-top: 127px;
+    }
+    &__ava {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__sun {
+        position: absolute;
+        z-index: -1;
+        animation: sun 5s linear infinite;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: #f2b236;
+        margin-top: 94px;
+    }
+    &__info {
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+        color: #222528;
+        margin-top: 24px;
+    }
+    &__border {
+        max-width: 620px;
+        margin: 80px auto;
+    }
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

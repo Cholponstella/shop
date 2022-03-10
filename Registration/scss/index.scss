@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import "../helpers/variables";
+@import "../helpers/mixins";
+
+@import "../components/header";
+@import "../components/registration";
+@import "../components/footer";
+@import "../components/info";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.page {
+  &__title {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 44px;
+    color: #222528;
+    margin-top: 84px;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

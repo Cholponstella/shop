@@ -1,0 +1,99 @@
+.katalog {
+    &__all {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 90px;
+    }
+    &__alli {
+      background: url(../img/story-game.png);
+      margin-left: 25px;
+      width: 315px;
+      height: 315px;
+    }
+    &__age {
+      margin-top: 25px;
+      @include font_4;
+      margin-left: 170px;
+      color: white;
+      background: #90c1bf;
+      border-radius: 6px;
+      width: 133px;
+      height: 29px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__text {
+      @include font_6;
+      color: $text-dark__gray;
+    }
+    &__img {
+      margin-right: 15px;
+    }
+    &__story {
+      margin-left: 25px;
+    }
+    &__par {
+      @include font_3;
+      color: $text-gray;
+    }
+    &__list {
+      margin-left: 30px;
+    }
+    &__ar {
+      @include font_4;
+      text-align: center;
+      text-transform: uppercase;
+      color: $text-pink;
+    }
+    &__h6 {
+      @include font_1;
+      color: $text-dark__gray;
+      width: 280px;
+      margin-left: 26px;
+    }
+    &__box {
+      @include font_3;
+      color: $text-gray;
+      margin-top: 4px;
+      display: flex;
+    }
+    &__three {
+      @include font_7;
+      color: $text-pink;
+      margin-left: 145px;
+    }
+    &__butt {
+      @include font_4;
+      text-align: center;
+      text-transform: uppercase;
+      background: #f2b236;
+      box-shadow: 0px 3px 7px #ffe9bf;
+      border-radius: 14px;
+      border: none;
+      width: 306px;
+      height: 54px;
+      margin-bottom: 30px;
+      margin-left: 25px;
+    }
+    &__big_box {
+      background: #ffffff;
+      box-shadow: 0px 4px 9px #d3d3d3;
+      border-radius: 12px;
+      width: 365px;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .katalog__wrapper {
+      flex-wrap: wrap;
+    }
+    .katalog__big_box {
+      margin: 20px 0;
+    }
+  }
+  
+  
