@@ -1,0 +1,80 @@
+.stars {
+    padding-top: 77px;
+    &__text {
+        @include font_6;
+        color: $text-dark__gray;
+    }
+    &__par {
+        @include  font_7;
+        color: $text-gray;
+        margin-top: 24px;
+    }
+    &__text-two {
+        @include font_7;
+        color:   $text-dark__gray;
+    }
+&__par-two {
+    @include font_3;
+    color:$text-light_gray;
+    margin-top: 11px;
+}
+&__one {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    color: $text-dark_yellow;
+}
+&__two {
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 43px;
+    color: $text-dark_yellow;
+}
+&__par-three {
+    @include font_3;
+    color: $text-dark__gray;
+    width: 1085px;
+    margin-top: 16px;
+   
+}
+&__all {
+    display: flex;
+    
+    align-items: center;
+    
+   
+    
+}
+
+&__box {
+    box-shadow: 0px 4px 9px #D3D3D3;
+border-radius: 14px;
+width: 1164px;
+margin-top: 80px;
+
+
+}
+
+&__up {
+    display: flex;
+    align-items: center;
+    margin-left: 43px;
+}
+&__down {
+    margin-left: 44px;
+    
+}
+&__img-right {
+    margin-left: 631px;
+}
+&__left {
+    margin-left: 38px;
+}
+&__box-two {
+    overflow: hidden;
+    
+}
+}

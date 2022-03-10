@@ -1,0 +1,45 @@
+.quetions {
+    background: rgba(245, 245, 245, 0.63);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-sizing: border-box;
+  height: 909px;
+  &__content {
+    margin-left: 138px;
+  }
+  &__sum {
+    @include font_5;
+    color: $text-dark__gray;
+    margin-top: 48px;
+    display: inline-block;
+  }
+  &__par {
+    @include font_3;
+    color: $text-gray;
+    margin-top: 20px;
+    width: 550px;
+  }
+  &__text {
+    @include font_6;
+    color: $text-dark__gray;
+  }
+  }
+  .summary {
+    padding: .3em .5em .3em .4em;
+    display: inline-block;
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+  summary:before {
+    content: "+";
+    margin-right: .3em;
+  }
+  details[open] > summary:before {
+    content: "–";
+  }
+  summary:before {
+    content: "+";
+    margin-right: .3em;
+  }
+  summary::marker {
+    display: none;
+  }

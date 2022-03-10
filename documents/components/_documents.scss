@@ -1,0 +1,24 @@
+.documents {
+    background: url(../img/linear-bg.png) top no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    font-family: Rubik;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__box {
+        height: 276px;
+        width: 219px;
+        background: #e3e3e3;
+        margin-top: 88px;
+    }
+    &__name {
+        font-family: Rubik;
+        font-weight: 500;
+        font-size: 24px;
+        color: #5b636b;
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,16 @@
+.breadcrumbs{
+    &__content{
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 24px;
+        align-items: center;
+    }
+    &__item{
+        margin-right: 14px;
+        @include font_3;
+        color: #A5AAAF;
+    }
+    svg{
+        margin-right: 6px;
+    }
+}

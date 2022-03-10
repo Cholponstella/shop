@@ -1,0 +1,92 @@
+.reviews {
+    margin-top: 80px;
+    &__text {
+      @include font_6;
+      color: $text-dark__gray;
+    }
+    &__paragraph {
+      @include font_3;
+      color: $text-gray;
+    }
+    &__a {
+      @include font_4;
+      text-align: center;
+      text-transform: uppercase;
+      color: $text-pink;
+    }
+    &__all {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__h2 {
+      @include font_7;
+      color:  $text-dark__gray;
+    }
+    &__par {
+      @include font_3;
+      color: $text-light_gray;
+    }
+    &__num  {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 42px;
+      line-height: 50px;
+      font-size: 170%;
+      color: $text-dark_yellow;
+    }
+    &__num2 {
+      font-family: "Rubik";
+      font-style: normal;
+      color: $text-dark_yellow;
+      margin-top: 5px;
+    }
+    &__pa {
+      @include font_3;
+      color: $text-dark__gray;
+      width: 491px;
+      padding-bottom: 40px;
+    }
+    &__ar {
+      color: $text-yellow;
+    }
+    &__up {
+      display: flex;
+      width: 321px;
+      margin-left: 47px;
+    }
+    &__wrapper {
+      box-shadow: 0px 4px 9px #d3d3d3;
+      border-radius: 14px;
+      width: 564px;
+      margin: 57px 37px;
+    }
+    &__down {
+      margin-left: 37px;
+    }
+    &__alli {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    &__between {
+      margin-left: 28px;
+    }
+    &__stars {
+      display: flex;
+    }
+    &__point {
+      margin-left: 14px;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .reviews__alli {
+      flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+    }
+    .reviews__pi {
+      display: none;
+    }
+  }

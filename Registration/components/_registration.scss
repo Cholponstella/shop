@@ -1,0 +1,191 @@
+.text-pirple {
+  color: #db4e66;
+}
+
+.registration {
+  padding-top: 88px;
+  &__content {
+    display: flex;
+    margin-top: 40px;
+  }
+  &__quiestion {
+    @include font(18px, 500, 21px);
+    color: #f2b236;
+  }
+  &__form {
+    max-width: 765px;
+  }
+  &__subtitle {
+    @include font(16px, 500, 19px);
+    color: #222528;
+  }
+  &__order {
+    width: 365px;
+    margin-left: 35px;
+    margin-top: 15px;
+  }
+}
+
+.form {
+  &__wrap {
+    background-color: #fafaf9;
+    padding: 44px 0 45px 36px;
+    border: 1px solid #ced0d2;
+    border-radius: 14px;
+    margin-top: 16px;
+  }
+  &__fullname {
+    padding-top: 47px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__patronymic {
+    margin-top: 45px;
+  }
+  &__address {
+    margin-top: 77px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__contacts {
+    margin-top: 77px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__label {
+    position: relative;
+    display: inline-block;
+    &-text {
+      @include font(18px, 500, 21px);
+      color: #5b636b;
+      position: absolute;
+      top: -32px;
+    }
+    &-patronymic {
+      top: 15px;
+    }
+    &-postcode,
+    &-email {
+      margin-top: 45px;
+    }
+  }
+  &__span-red {
+    color: red;
+  }
+  &__input {
+    width: 329px;
+    padding: 12px;
+    border: 1px solid #ced0d2;
+    border-radius: 6px;
+    margin-right: 35px;
+    &::placeholder {
+      @include font(14px, normal, 17px);
+      color: #ced0d2;
+    }
+    // &::target-text {
+    //   @include font(14px, normal, 17px);
+    //   color: #ced0d2;
+    // }
+  }
+  &__name {
+    width: 265px;
+  }
+  &__example {
+    width: 265px;
+    padding: 12px;
+    background-color: #e8eceb;
+    @include font(14px, normal, 17px);
+    color: #a5aaaf;
+  }
+  &__phone {
+    width: 229px;
+  }
+  &__goods {
+    &-content {
+      margin-top: 24px;
+      padding-right: 44px;
+    }
+    &-desc {
+      @include font(16px, normal, 160%);
+      color: #222528;
+      margin-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      span {
+        color: #db4e66;
+      }
+    }
+  }
+  &__total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    &-text {
+      @include font(24px, 500, 28px);
+      color: #222528;
+    }
+  }
+  &__agreement {
+    @include font(14px, normal, 17px);
+    color: #a5aaaf;
+    margin-top: 24px;
+    span {
+      color: black;
+    }
+  }
+  &__btn {
+    padding: 18px 64px;
+    background: #db4e66;
+    box-shadow: 2px 4px 9px #fbccd4;
+    border-radius: 14px;
+    margin-top: 40px;
+    border: none;
+    @include font(16px, 500, 19px);
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  &__label {
+    @include font(14px, normal, 17px);
+    color: #222528;
+    margin-top: 8px;
+  }
+}
+.payment {
+  &__imgs {
+    margin-top: 32px;
+  }
+  &__img {
+    margin-right: 21px;
+  }
+}
+.order {
+  &__content {
+    margin-top: 40px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+  &__img {
+    width: 65px;
+    height: 65px;
+    background-color: #e6e6e6;
+  }
+  &__desc {
+    max-width: 184px;
+    @include font(14px, normal, 17px);
+    color: #222528;
+  }
+  &__price {
+    @include font(16px, normal, 19px);
+    color: #222528;
+    margin-top: auto;
+  }
+}

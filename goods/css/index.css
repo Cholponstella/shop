@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+.katalog__alli {
+  margin-left: 25px;
+  width: 315px;
+  height: 315px;
+}
+
+.katalog__age {
+  margin-top: 25px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 170px;
+  color: white;
+  background: #90c1bf;
+  border-radius: 6px;
+  width: 133px;
+  height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.katalog__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #222528;
+}
+
+.katalog__img {
+  margin-right: 15px;
+}
+
+.katalog__h6 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #222528;
+  width: 280px;
+  margin-left: 26px;
+}
+
+.katalog__box {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #5b636b;
+  margin-top: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.katalog__three {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #db4e66;
+  margin-left: 145px;
+}
+
+.katalog__butt {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #f2b236;
+  -webkit-box-shadow: 0px 3px 7px #ffe9bf;
+          box-shadow: 0px 3px 7px #ffe9bf;
+  border-radius: 14px;
+  border: none;
+  width: 306px;
+  height: 54px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.katalog__big_box {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 9px #d3d3d3;
+          box-shadow: 0px 4px 9px #d3d3d3;
+  border-radius: 12px;
+  width: 365px;
+}
+
+@media screen and (max-width: 780px) {
+  .katalog__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .katalog__big_box {
+    margin: 20px 0;
+  }
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, body {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=index.css.map */
